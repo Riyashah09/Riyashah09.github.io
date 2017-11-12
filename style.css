@@ -6,10 +6,14 @@ h1, h2, h3, h4, h5, h6 {
 	color: green;
 	font-style: bold;
 }
-li {
+#two li {
 	color: fuchsia;
-	font-family: Bookman, 'URW Bookman L', serif;
+	font-family: Bookman, "URW Bookman L", serif;
 	font-size: 250%;
+}
+#one li{
+	font-family:'Courier', monospace;
+	color: red;
 }
 p, * {
     font-family: 'Open Sans', sans-serif;
