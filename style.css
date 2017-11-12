@@ -2,11 +2,15 @@
 /* Add your styling for your text here */
 h1, h2, h3, h4, h5, h6 {
     /* Let's add a font for our headings */
-	font-family: Times, Times New Roman, serif;
+	font-family: Times, 'Times New Roman', serif;
 	color: green;
 	font-style: bold;
 }
-
+li {
+	color: fuchsia;
+	font-family: Bookman, 'URW Bookman L', serif;
+	font-size: 250%;
+}
 p, * {
     font-family: 'Open Sans', sans-serif;
 }
@@ -19,11 +23,11 @@ p2{
 	color: blue;
 }
 
-/* Nav bar 
+ /*Nav bar */
 nav {
     position: fixed;
     top: 0;
-    right: 0;
+    right: 0
     left: 0;
     z-index: 1000;
     min-height: 50px;
@@ -31,9 +35,11 @@ nav {
     padding-left: 10%;
     padding-right: 10%;
     display: block;
-    background-color: #eeeeee;
+    background-color: blue;
+	font-family: Times, 'Times New Roman', serif;
+	color: black;
 }
-*/
+
 /* Add more nav bar attributes and styling here */
 
 /* Add scroll link attributes here */
